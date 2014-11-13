@@ -12,7 +12,7 @@ LICENSE = "GPLv2"
 LIC_FILES_CHKSUM = "file://LICENSE;md5=94d55d512a9ba36caa9b7df079bae19f"
 PR = "r1"
 
-SRC_URI = "http://0pointer.de/lennart/projects/ifplugd/ifplugd-${PV}.tar.gz \
+SRC_URI = "${OPENXT_MIRROR}/ifplugd-0.28.tar.gz \
            file://kernel-types.patch \
            file://nobash.patch \
            file://ifplugd.conf"
